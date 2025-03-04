@@ -1,2 +1,33 @@
+.progress-container {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    margin-left: 21%;
+    /* margin: 10px auto; Centra el contenedor */
+    text-align: left; /* Mantiene el texto alineado a la izquierda */
+}
 
+.progress-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    width: 50%; /* Cambia este valor para ajustar la barra */
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
 /** ADD YOUR AWESOME CODES HERE **/
