@@ -1,2 +1,22 @@
+.mySwiper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3c3c3;
+}
 
-/** ADD YOUR AWESOME CODES HERE **/
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+.swiper-slide img {
+    width: 80px;
+    height: auto;
+}
