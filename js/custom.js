@@ -158,3 +158,15 @@
     });
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function() {
+  const progressBars = document.querySelectorAll('.progress');
+ 
+  progressBars.forEach(progress => {
+    const percentage = progress.getAttribute('data-progress');
+    const progressBar = progress.querySelector('.progress-bar'); 
+
+    progressBar.style.width = percentage + '%'; 
+    console.log(percentage);
+  });
+});

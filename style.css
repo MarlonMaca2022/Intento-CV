@@ -2484,20 +2484,10 @@ select.mobile-device {
 }
 
 .progress-bar {
-    width: 100%;
-    background-color: #448AFF;
+    width: 0px;
+    transition: width 3s ease-in-out;
     border-radius: 5px;
     overflow: hidden;
     height: 20px;
 }
 
-.progress {
-    height: 100%;
-    width: 50%; /* Cambia este valor para ajustar la barra */
-    background-color: #4caf50;
-    text-align: center;
-    color: white;
-    line-height: 20px;
-    font-size: 12px;
-    font-weight: bold;
-}
